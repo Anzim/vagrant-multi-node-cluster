@@ -1,0 +1,1 @@
+for %%h in (m1 m2 m3 w1 w2 w3) do vagrant ssh -c %* %%h
