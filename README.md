@@ -1,4 +1,5 @@
-#Vagrant Multi Node Cluster
+Vagrant Multi Node Cluster
+
 #Technology
 Windows 10 + HyperV, Docker / Kubernetes or Swarm
 
@@ -10,7 +11,7 @@ The process would allow creating multi-node Swarm or Kubernetes Cluster on multi
 The only working approach I found to quickly spin up VMs that have the Docker engine running on them is to use Vagrant. 
 It allows quicky adding and bringing down nodes to test and monitor different cluster behaviours with one command like "vagrant up manager2 worker3 worker4", run a shell script on all or several nodes simultaneously and even automate the process.
 
-#Instalation
+#Installation
 Clone git repository by running with command if you have git installed:
 git clone https://github.com/Anzim/vagrant-multi-node-cluster
 
